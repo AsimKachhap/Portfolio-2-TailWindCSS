@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import{AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
+import Image from 'next/image'
+import deved from '../public/dev-ed-wave.png'
 
 export default function Home() {
   return (
@@ -33,10 +35,13 @@ export default function Home() {
               with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-2 '>
+          <div className='text-5xl flex justify-center gap-16 py-2 text-gray-500 '>
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillGithub />
+          </div>
+          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 py-2 overflow-hidden'>
+            <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
       </main>
