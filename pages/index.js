@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
+import{AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
 
 export default function Home() {
   return (
@@ -13,14 +14,30 @@ export default function Home() {
       <main className='bq-white px-10'>
         <section className="min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl'>Asim Kachhap</h1>
+            <h1 className='text-xl'>developedbyAsim</h1>
             <ul className='flex items-center'>
               <li></li>
-              <li><BsFillMoonStarsFill className='cursor-pointer text-2xl'/></li>
+              <li><BsFillMoonStarsFill className='cursor-pointer text-2xl mx-5'/></li>
               <li></li>
               <li className='bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2' href="#">Resume</li>
             </ul>
           </nav>
+          <div className='text-center p-10'>
+            <h2 className='text-5xl py-2 text-teal-500 font-medium'>Asim Kachhap</h2>
+            <h3 className='text-2xl py-2'>Full Stack Developer</h3>
+            <p className='text-md py-5 leading-8 text-gray-800'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+              also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+              the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+              with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+          </div>
+          <div className='text-5xl flex justify-center gap-16 py-2 '>
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillGithub />
+          </div>
         </section>
       </main>
 
