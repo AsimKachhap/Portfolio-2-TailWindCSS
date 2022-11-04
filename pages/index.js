@@ -1,18 +1,18 @@
-import Head from 'next/head'
-import {BsFillMoonStarsFill} from 'react-icons/bs'
-import{AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai'
-import Image from 'next/image'
-import deved from '../public/dev-ed-wave.png'
-import design from '../public/design.png'
-import code from '../public/code.png'
-import consulting from '../public/consulting.png'
-import web1 from '../public/web1.png'
-import web2 from '../public/web2.png'
-import web3 from '../public/web3.png'
-import web4 from '../public/web4.png'
-import web5 from '../public/web5.png'
-import web6 from '../public/web6.png'
-import {useState} from 'react'
+import Head from "next/head"
+import {BsFillMoonStarsFill} from "react-icons/bs"
+import{AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from "react-icons/ai"
+import Image from "next/image"
+import deved from "../public/dev-ed-wave.png"
+import design from "../public/design.png"
+import code from "../public/code.png"
+import consulting from "../public/consulting.png"
+import web1 from "../public/web1.png"
+import web2 from "../public/web2.png"
+import web3 from "../public/web3.png"
+import web4 from "../public/web4.png"
+import web5 from "../public/web5.png"
+import web6 from "../public/web6.png"
+import {useState} from "react"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -24,120 +24,120 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="min-h-screen">
-          <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='text-xl dark:text-white' >developedbyAsim</h1>
-            <ul className='flex items-center'>
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1 className="text-xl dark:text-white" >developedbyAsim</h1>
+            <ul className="flex items-center">
               <li></li>
-              <li><BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode) } className='cursor-pointer text-2xl mx-5 dark:text-white'/></li>
+              <li><BsFillMoonStarsFill onClick={()=> setDarkMode(!darkMode) } className="cursor-pointer text-2xl mx-5 dark:text-white"/></li>
               <li></li>
-              <li className='bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2' href="#">Resume</li>
+              <li className="bg-gradient-to-r  from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-2" href="#">Resume</li>
             </ul>
           </nav>
-          <div className='text-center p-10'>
-            <h2 className='text-5xl py-2 text-teal-500 font-medium md:text-6xl'>Asim Kachhap</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-white'>Full Stack Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800 md:text-lg mx-w-lg mx-auto dark:text-slate-400'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-              the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+          <div className="text-center p-10">
+            <h2 className="text-5xl py-2 text-teal-500 font-medium md:text-6xl">Asim Kachhap</h2>
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-white">Full Stack Developer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-lg mx-w-lg mx-auto dark:text-slate-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+              the industry"s standard dummy text ever since the 1500s, when an unknown printer took a galley of
               type and scrambled it to make a type specimen book. It has survived not only five centuries, but
               also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
               the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
               with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
             </p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-2 text-gray-500 '>
+          <div className="text-5xl flex justify-center gap-16 py-2 text-gray-500 ">
             <AiFillTwitterCircle />
             <AiFillLinkedin />
             <AiFillGithub />
           </div>
-          <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 py-2 overflow-hidden md:h-96 md:w-96'>
+          <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 py-2 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" />
           </div>
         </section>
 
 
         <section>
-          <h3 className='text-3xl py-1 dark:text-white'>Services I Offer</h3>
-          <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-400'>
+          <h3 className="text-3xl py-1 dark:text-white">Services I Offer</h3>
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-400">
           Lorem Ipsum is simply dummy text of the <span className="text-teal-500">printing</span>  and <span className="text-teal-500">typesetting</span> industry. Lorem Ipsum has been the
-           industry's standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
+           industry"s standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
           and scrambled it to make a type specimen book.
           </p>
 
-          <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-400'>
+          <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-400">
           Lorem Ipsum is simply dummy text of the <span className="text-teal-500">printing</span>  and <span className="text-teal-500">typesetting</span> industry. Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
+          industry"s standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
          and scrambled it to make a type specimen book.
           </p>
 
-          <div className='lg: flex gap-10'>
-            <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 '>
-              <Image src={design} height={100} width={100} className='mx-auto' />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'> Beautiful Designs</h3>
-              <p className='py-2 dark:text-white'>Ceating beautiful Design four your needs following core design theory.</p>
-              <h3 className='py-2 text-teal-600'>Design Tools I Use</h3>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Illustrator</p>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Photoshop</p>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Figma</p>
+          <div className="lg: flex gap-10">
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800 ">
+              <Image src={design} height={100} width={100} className="mx-auto" />
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white"> Beautiful Designs</h3>
+              <p className="py-2 dark:text-white">Ceating beautiful Design four your needs following core design theory.</p>
+              <h3 className="py-2 text-teal-600">Design Tools I Use</h3>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Illustrator</p>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Figma</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800'>
-              <Image src={consulting} height={100} width={100} className='mx-auto' />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'> Beautiful Designs</h3>
-              <p className='py-2 dark:text-white'>Ceating beautiful Design four your needs following core design theory.</p>
-              <h3 className='py-2 text-teal-600'>Design Tools I Use</h3>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Photoshop</p>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Illustrator</p>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Figma</p>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-gray-800">
+              <Image src={consulting} height={100} width={100} className="mx-auto" />
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white"> Beautiful Designs</h3>
+              <p className="py-2 dark:text-white">Ceating beautiful Design four your needs following core design theory.</p>
+              <h3 className="py-2 text-teal-600">Design Tools I Use</h3>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Illustrator</p>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Figma</p>
             </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800'>
-              <Image src={code} height={100} width={100} className='mx-auto' />
-              <h3 className='text-lg font-medium pt-8 pb-2 dark:text-white'> Beautiful Designs</h3>
-              <p className='py-2 dark:text-white'>Ceating beautiful Design four your needs following core design theory.</p>
-              <h3 className='py-2 text-teal-600'>Design Tools I Use</h3>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Photoshop</p>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Illustrator</p>
-              <p className='text-gray-800 py-1 dark:text-slate-400'>Figma</p>
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-gray-800">
+              <Image src={code} height={100} width={100} className="mx-auto" />
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white"> Beautiful Designs</h3>
+              <p className="py-2 dark:text-white">Ceating beautiful Design four your needs following core design theory.</p>
+              <h3 className="py-2 text-teal-600">Design Tools I Use</h3>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Photoshop</p>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Illustrator</p>
+              <p className="text-gray-800 py-1 dark:text-slate-400">Figma</p>
             </div>
           </div>
         </section>
 
       <section>
         <div>
-          <h3 className='text-3xl py-1 dark:text-white'>Portfolio</h3>
+          <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
         </div>
-        <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-400'>
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-400">
         Lorem Ipsum is simply dummy text of the <span className="text-teal-500">printing</span>  and <span className="text-teal-500">typesetting</span> industry. Lorem Ipsum has been the
-         industry's standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
+         industry"s standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
         and scrambled it to make a type specimen book.
         </p>
 
-        <p className='text-md py-2 leading-8 text-gray-800 dark:text-slate-400'>
+        <p className="text-md py-2 leading-8 text-gray-800 dark:text-slate-400">
         Lorem Ipsum is simply dummy text of the <span className="text-teal-500">printing</span>  and <span className="text-teal-500">typesetting</span> industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
+        industry"s standard dummy text ever since the 1500s, when an unknown printer took a <span className="text-teal-500">gallery</span>  of type
        and scrambled it to make a type specimen book.
         </p>
 
-        <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-          <div className='basis-1/3 flex-1'>
-            <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+        <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+          <div className="basis-1/3 flex-1">
+            <Image src={web1} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
           </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+          <div className="basis-1/3 flex-1">
+            <Image src={web2} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
           </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+          <div className="basis-1/3 flex-1">
+            <Image src={web3} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
           </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={web4} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+          <div className="basis-1/3 flex-1">
+            <Image src={web4} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
           </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={web5} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+          <div className="basis-1/3 flex-1">
+            <Image src={web5} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
           </div>
-          <div className='basis-1/3 flex-1'>
-            <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+          <div className="basis-1/3 flex-1">
+            <Image src={web6} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" />
           </div>
         </div>
       </section>
